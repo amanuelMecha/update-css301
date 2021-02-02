@@ -1,0 +1,44 @@
+#comment1{
+    font-style: italic;
+    background-color: #FFFFA8;
+    margin-left: 60px;
+    
+}
+#comment2{
+    font-style: italic;
+    background-color: #FFFFA8;
+    margin-left: 60px;
+    
+}
+#comment3{
+    font-style: italic;
+    background-color: #FFFFA8;
+    margin-left: 60px;
+    
+}
+body {
+    background-image: url(https://courses.cs.washington.edu/courses/cse190m/09sp/homework/1/silverware.jpg);
+    margin-left: 60px;
+}
+#Grandma{
+    color: gold;
+    text-align: center;
+    background-color: gray;
+    }
+
+h4{
+    color: gold;
+    background-color: gray;
+}
+
+h2{
+     color: gold;
+    align-items: center;
+    background-color: gray;
+}
+h3{
+    color: gold;    
+    background-color: gray
+
+
+}

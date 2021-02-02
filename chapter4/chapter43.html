@@ -1,0 +1,25 @@
+<!DOCTYPE HTML>
+<html lang="en-us">
+
+<head>
+    <meta charset="utf-8">
+    <title>My assignments</title>
+    <script>
+        function submitAssignment() {
+            let name_of_course = document.getElementById('input').value;
+            let output_1 = "I submitted " + name_of_course + " ontime.";
+            document.getElementById('output').innerHTML = output_1;
+        }
+
+    </script>
+</head>
+
+<body>
+    <h1>Amanuel assignments submition page</h1>
+    The name of the course:
+    <input type="text" id="input"><br />
+    <button type="button" onclick="submitAssignment()">submit</button>
+    <div id="output"></div>
+</body>
+
+</html>

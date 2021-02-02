@@ -1,0 +1,22 @@
+h2{
+    color: green;
+}
+title{
+    color : yellow;
+    
+}
+h3{
+    color : green;
+    text-decoration: underline overline;
+    text-shadow: -2px 6px gray;
+    text-align: center;
+    line-height: 30px;
+    word-spacing: 30px;
+}
+button{
+    color: green;
+}
+p{
+    color: red;
+    border: 2px dashed blue;
+}

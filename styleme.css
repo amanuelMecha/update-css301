@@ -1,0 +1,25 @@
+#aman{
+    background-color: green;
+}
+p{
+    color: red;
+    font-family: Georgia;
+    background-color: black;
+}
+h5{
+    color : yellow
+}
+h4{
+    color : black
+}
+
+h2{
+    color: yellow;
+    font-family: Georgia;
+    background-color:black;
+}
+a{
+    color: black;
+    font-size: large;
+    /* background-color: gray */
+}

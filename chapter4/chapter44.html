@@ -1,0 +1,36 @@
+<!DOCTYPE HTML>
+<html lang="en-us">
+
+<head>
+    <meta charset="utf-8">
+    <title>My assignments</title>
+    <script>
+        function concat() {
+            let fn = document.getElementById('fname').value;
+            let ln = document.getElementById('lname').value;
+            let age_person = document.getElementById('ag').value;
+            let state_person = document.getElementById('st').value;
+            let departm = document.getElementById('dt').value;
+            let fullAddress = fn + " " + ln + " " + age_person + " " + state_person + " " + departm;
+            document.getElementById('output').innerHTML = fullAddress;
+        }
+
+    </script>
+</head>
+
+<body>
+    <h3>Fill the form and submit</h3>
+    First name: <input type="text" id="fname"><br /><br />
+    Last name: <input type="text" id="lname"><br /><br />
+    Age : <input type="text" id="ag"><br /><br />
+    State : <input type="text" id="st"><br /><br />
+    Department: <input type="text" id="dt"><br /><br />
+    <button type="button" onclick="concat()">submit</button>
+    <div id="output"></div>
+
+    <p>
+        <a href https://validator.w3.org/check/referer>Validate</a>
+    </p>
+</body>
+
+</html>
